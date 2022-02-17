@@ -1,0 +1,10 @@
+n=int(input('enter number'))
+even = 0
+odd = 0
+for n in range(n):
+    if n%2==0:
+        even += n
+    else:
+        odd += n
+print(even)    
+print(odd)
